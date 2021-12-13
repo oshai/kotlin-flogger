@@ -1,3 +1,5 @@
+package io.github.oshai.kf
+
 import com.google.common.flogger.FluentLogger
 import org.junit.jupiter.api.Test
 

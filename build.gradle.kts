@@ -2,11 +2,17 @@ plugins {
     kotlin("jvm") version "1.6.0"
 }
 
+apply(plugin = "kotlin")
+
 group = "io.github.oshai"
 version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
 
 dependencies {
